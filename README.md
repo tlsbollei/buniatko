@@ -1,6 +1,3 @@
 # buniatko
-fun little ssh misconfig check script
-input target ip 
-password and username wordlist is optional
-4 operations after one execution, read source
-kitty
+Secure shell misconfiguration script
+Will check for open ports on an IP address, check whether weak SSH ciphers are being used, checks whether root login is possible and tries to bruteforce the SSH with hydra.
